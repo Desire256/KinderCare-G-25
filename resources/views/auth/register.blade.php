@@ -45,7 +45,7 @@
     <link rel="stylesheet" type="text/css" href="../files/assets/css/pages.css">
 </head>
 
-<body style="background-image: url('/files/bee4.jpg');background-repeat: no-repeat;
+<body style="background-image: url('images/sch.jfif');background-repeat: no-repeat;
 background-size: 1920px 1024px;">
     <!-- Pre-loader start -->
     <div class="theme-loader">
@@ -111,7 +111,7 @@ background-size: 1920px 1024px;">
                         @csrf
                         <input type="hidden" name="role" value="Guest">
                         <div class="text-center">
-                            <img src="{{asset('/dash/logo.png')}}"  alt="KNDERCARE">
+                            <img src="{{asset('images/kind.jpg')}}"  alt="KNDERCARE">
                         </div>
 
                         <div class="auth-box card">
@@ -170,26 +170,6 @@ background-size: 1920px 1024px;">
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <div class="row m-t-25 text-left">
-                                    <div class="col-md-12">
-                                        <div class="checkbox-fade fade-in-primary">
-                                            <label>
-                                                <input type="checkbox" value="">
-                                                <span class="cr"><i class="cr-icon icofont icofont-ui-check txt-primary"></i></span>
-                                                <span class="text-inverse">I read and accept <a href="#">Terms &amp; Conditions.</a></span>
-                                            </label>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-12">
-                                        <div class="checkbox-fade fade-in-primary">
-                                            <label>
-                                                <input type="checkbox" value="">
-                                                <span class="cr"><i class="cr-icon icofont icofont-ui-check txt-primary"></i></span>
-                                                <span class="text-inverse">Send me the <a href="#">Newsletter</a> weekly.</span>
-                                            </label>
-                                        </div>
-                                    </div>
-                                </div> --}}
                                 <div class="row m-t-30">
                                     <div class="col-md-12">
                                         <button class="btn btn-primary btn-md btn-block waves-effect text-center m-b-20"

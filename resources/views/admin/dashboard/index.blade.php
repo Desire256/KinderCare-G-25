@@ -44,7 +44,7 @@
 </style>
 @section('content')
 <div class="content-wrapper">
-    <h1 class="text-center mt-5">KINDERCARE NURSARY</h1>
+    <h1 class="text-center mt-5">KINDERCARE EDUCATION CENTRE</h1>
     <div class="container-fluid">
           <p class="text-center"><i class="mdi mdi-account fs-3 font-16"></i>Pupils</p>
     <div class="row mb-5">

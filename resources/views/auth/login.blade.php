@@ -28,7 +28,8 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/style_log.css') }}">
     <!--===============================================================================================-->
 </head>
-<body  style="background-image: url('{{asset('files/bee.jpg')}}');background-repeat: no-repeat;background-size: 1920px 1024px;">
+
+<body  style="background-image: url('images/baby.jpg');background-size: 1920px 1000px;">
 <section class="login-block">
     <div class="limiter">
         <div class="container-login100" >
@@ -39,7 +40,7 @@
                         <span class="login100-form-logo">
                             <div class="login100-form-logo-img">
                                 <figure>
-                                    <a href="/" ><img src="{{ asset('dash/KINDERCARE_logo.png' ) }}" alt="KINDERCARE_logo" width="100" height="30"></a>
+                                    <a href="/" ><img src="{{ asset('dash/KINDERCARE_logo.png' ) }}" alt="KINDERCARE_logo" width="100" height="60"></a>
                                     <a href="/"><figcaption><b>To Home</b></figcaption></a>
                                 </figure>
                             </div>
