@@ -38,11 +38,11 @@
     const time = new Date().getHours();
     let greeting;
     if (time < 12) {
-        greeting = "Good morning, "+"<b>{{ucfirst(Auth::user()->name)}}".fontcolor( "Black" );
+        greeting = "Good morning, "+"<b>{{ucfirst(Auth::user()->name)}}".fontcolor( "Blue" );
     } else if (time < 17) {
-        greeting = "Good afternoon, "+ "<b>{{ucfirst(Auth::user()->name)}}".fontcolor( "Black" );
+        greeting = "Good afternoon, "+ "<b>{{ucfirst(Auth::user()->name)}}".fontcolor( "Blue" );
     } else {
-        greeting = "Good evening, "+ "<b>{{ucfirst(Auth::user()->name)}}".fontcolor( "Black" );
+        greeting = "Good evening, "+ "<b>{{ucfirst(Auth::user()->name)}}".fontcolor( "Blue" );
     }
     document.getElementById("greetings").innerHTML = greeting;
 </script>

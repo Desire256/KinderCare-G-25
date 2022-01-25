@@ -193,7 +193,7 @@ background-size: 1920px 1024px;">
                                 <div class="row m-t-30">
                                     <div class="col-md-12">
                                         <button class="btn btn-primary btn-md btn-block waves-effect text-center m-b-20"
-                                            type="submit">Sign up now</button>
+                                            type="submit">Sign up</button>
                                     </div>
                                 </div>
                                 <hr />
@@ -201,7 +201,7 @@ background-size: 1920px 1024px;">
                                     <div class="col-md-10">
                                         <p class="text-inverse text-left m-b-0">Thank you.</p>
                                         <p class="text-inverse text-left"><a href="{{ route('loginForm') }}"><b>I have
-                                                    an account</b></a></p>
+                                                    an account alrady</b></a></p>
                                     </div>
                                     <div class="col-md-2">
                                         {{-- <img src="../files/assets/images/auth/Logo-small-bottom.png" alt="small-logo.png"> --}}
