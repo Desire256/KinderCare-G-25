@@ -50,7 +50,7 @@
     <div class="row mb-5">
         <div class="col-md-6 col-lg-3 col-xlg-3">
             <div class="card card-hover">
-                <div class="box text-center" style="background-color:blue">
+                <div class="box text-center bg-success">
                     <h1 class="font-light text-white">
                         {{ $pupils }}
                     </h1>
@@ -70,7 +70,7 @@
         </div>
         <div class="col-md-6 col-lg-3 col-xlg-3">
             <div class="card card-hover">
-                <div class="box bg-danger text-center">
+                <div class="box bg-success text-center">
                     <h1 class="font-light text-white">
                         {{ $deactivePupils }}
                     </h1>
@@ -83,7 +83,7 @@
         <div class="row">
         <div class="col-md-6 col-lg-3 col-xlg-3">
             <div class="card card-hover">
-                <div class="box text-center" style="background-color:blue">
+                <div class="box text-center bg-success">
                     <h1 class="font-light text-white">
                         {{ $assignments }}
                     </h1>
@@ -103,7 +103,7 @@
         </div>
         <div class="col-md-6 col-lg-3 col-xlg-3">
             <div class="card card-hover">
-                <div class="box bg-danger text-center">
+                <div class="box bg-success text-center">
                     <h1 class="font-light text-white">
                         {{ $overdue }}
                     </h1>
