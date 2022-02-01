@@ -29,5 +29,5 @@ Route::middleware('preventBackHistory','auth:web')->group(function () {
     Route::resource('admin/assignment', 'App\Http\Controllers\AssignmentsController');
     Route::resource('admin/score', 'App\Http\Controllers\ScoreController');
     Route::resource('admin/requests', 'App\Http\Controllers\RequestsController'); 
-    Route::resource('admin/report', 'App\Http\Controllers\ReportsController'); 
+     
 });
